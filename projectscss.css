@@ -1,0 +1,39 @@
+html{
+background-color:darkcyan;    
+}
+head{
+    background-color: blueviolet;
+    border-color: black;
+    text-align: center;
+
+}
+
+main{
+text-align: left;
+text-shadow: 1px 2px 2px #1C6EA4; ;
+padding-top: 2rem;
+padding-bottom:2rem;
+padding-left:2rem;
+}
+
+a{
+color:cyan
+}
+
+section{
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+
+h1{
+color:whitesmoke;
+}
+h2{
+color:whitesmoke
+}
+
+h3{
+color:whitesmoke
+}
+
