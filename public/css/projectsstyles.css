@@ -3,16 +3,13 @@ head{
     background-color: blueviolet;
     border-color: black;
     text-align: center;
-
 }
 
 body{
-
 display:grid;
 grid-template-columns:repeat(1,auto);
 grid-template-rows:repeat(2,auto);
 text-align: left;
-
 padding-top: 1rem;
 padding-bottom:1rem;
 padding-left:1rem;
@@ -35,45 +32,45 @@ height:fit-content;
         grid-template-rows:repeat(2,auto);
     }
 .headheader{
-justify-self:center;
+        justify-self:center;
 }
 
 
 .buttons{
-    border:2px solid black;
-    padding: 10px;          
-    margin: 10px;           
-    width: 280px;           
-    height: 40px;          
-    background-color: rgb(255, 255, 255); 
-    justify-self:center;
-    text-align:center;
+        border:2px solid black;
+        padding: 10px;          
+        margin: 10px;           
+        width: 280px;           
+        height: 40px;          
+        background-color: rgb(255, 255, 255); 
+        justify-self:center;
+        text-align:center;
 }
 
 .siblingwrapper{
-display:grid;
-grid-auto-rows: auto;
-background-color:cadetblue
+        display:grid;
+        grid-auto-rows: auto;
+        background-color:cadetblue
 }
 .repo-card{
-display:grid;
-grid-template-columns:1fr;
-grid-template-rows:repeat(5,auto);
-border:5px solid black;
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows:repeat(5,auto);
+        border:5px solid black;
 }
 
 .details{
-    font-family: "Arial", Helvetica, sans-serif;
-    border:2px solid black;
+        font-family: "Arial", Helvetica, sans-serif;
+        border:2px solid black;
 }
 
 
 a{
-color:rgb(242, 0, 250)
+        color:rgb(242, 0, 250)
 }
 
 h1{
-color:rgb(0, 0, 0);
+        color:rgb(0, 0, 0);
 }
 
 @media only screen and (min-width: 768px) {
@@ -97,25 +94,25 @@ color:rgb(0, 0, 0);
         grid-template-columns:repeat(2,auto);
     }
     .buttons{
-    border:2px solid black;
-    padding: 10px;          
-    margin: 10px;           
-    width: 280px;           
-    height: 40px;          
-    background-color: rgb(255, 255, 255); 
-    justify-self:center;
-    text-align:center; 
+        border:2px solid black;
+        padding: 10px;          
+        margin: 10px;           
+        width: 280px;           
+        height: 40px;          
+        background-color: rgb(255, 255, 255); 
+        justify-self:center;
+        text-align:center; 
     }
 
     .repo-card{
-    display:grid;
-    grid-template-columns:1fr;
-    grid-template-rows:repeat(5,auto);
-    border:5px solid black;
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows:repeat(5,auto);
+        border:5px solid black;
     }
     .siblingwrapper{
-    display:grid;
-    grid-auto-rows: auto;
-    background-color:cadetblue
+        display:grid;
+        grid-auto-rows: auto;
+        background-color:cadetblue
     }
 }
