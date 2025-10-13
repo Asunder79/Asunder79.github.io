@@ -37,7 +37,7 @@ function renderRepoCards(repoarray) {
         <p class="details">Name: ${repo.name}</p> 
         <p class="details">Author: ${repo.owner.login}</p>
         <p class="details">HTML-Url: <a href="${repo.html_url}" target="_blank">${repo.html_url}</a></p>
-        <p class="details">${repo.description || 'No description provided.'}</p>
+        <p class="details">Description:${repo.description || 'No description provided.'}</p>
         <p class="details">Created On: ${formattedDate}</p>
       `;
       repoContainer.appendChild(repoCard); //repocontainer IS repo-card class.
